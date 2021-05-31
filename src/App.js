@@ -1,9 +1,9 @@
 import React from "react";  
 import { HashRouter, Route } from "react-router-dom";
-import About from "./routes/About";
-import Home from './routes/home';
-import Detail from './routers/Detail';
-import Navigation from "./components/Navigation";
+import About from "./routers/About.js";
+import Home from './routers/home.js';
+import Detail from './routers/Detail.js';
+import Navigation from "./components/Navigation.js";
 import "./App.css";
 
 function App() {
