@@ -1,7 +1,13 @@
 import React from 'react';
 import "./About.css";
 
-function About() {
+/*
+    route props 
+    movie 를 클릭하면 movie 디테일 화면으로 이동... 
+*/
+
+function About(props) {
+    console.log(props);
     return (
         <div className="about__container">
             <span>
